@@ -1,6 +1,6 @@
 # **Análisis del acceso a internet en Argentina**
 
-## **Introducción:**
+## **`Introducción:`**
 
 En la era digital actual, el acceso a Internet se ha convertido en un factor crucial para el desarrollo económico, social y educativo de los países. En este contexto, el presente proyecto de análisis de datos tiene como objetivo examinar el nivel de acceso a Internet en Argentina. 
 
