@@ -12,5 +12,5 @@ En resumen, este proyecto de análisis de datos tiene como objetivo investigar y
 
 ## **`Contenido del repositorio:`**
 - Dashboard.pbix: informe de gráficos del análisis realizado.
-- Carpeta datasets: contiene los archivos de datos en formato .xlsx.
+- Carpeta datasets: contiene los archivos de datos en formato .csv.
 - EDA.ipynb: análisis de datos en lenguaje python.
