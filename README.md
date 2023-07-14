@@ -34,4 +34,30 @@ En resumen, aunque el acceso a Internet no es la única variable determinante en
 
 - Realizamos la visualización del contenido y tipo de datos de todos los datasets para saber con cuáles trabajar.
 
-- En PowerQuery de PowerBi podemos observar información de los datos que contienen la tablas, por ejemplo: valores con error, vacíos, valores únicos, etc.
+- En PowerQuery de PowerBI podemos observar información de los datos que contienen la tablas, por ejemplo: valores con error, vacíos, valores únicos, etc.
+
+- Encontramos una relación proporcional entre el aumento del PBI per cápita y el aumento del acceso a internet en hogares. Nos focalizaremos en esto para realizar el análisis.
+
+## **`Transformación de datos:`**
+
+- Creamos una tabla calendario y relacionamos la columna Date con la de las demás tablas en PowerBI.
+
+- Creamos las medidas necesarias para nuestros KPIs:
+    + Goal_Fibra, Goal_Penetracion y Goal_Velocidad: son utilizadas como valores objetivos para los KPIs.
+    + Promedio_Fibra, Promedio_Penetracion y Promedio_Velocidad: son utilizadas como promedio de los valores que corresponden por su nombre.
+    + Promedio_Fibra_TP, Promedio_Penetracion_TP y Promedio_Velocidad_TP: son utilizadas como promedio de los valores del trimestre anterior que corresponden por su nombre.
+    + Promedio_Fibra_ultima_fecha, Promedio_Penetracion_ultima_fecha y Promedio_Velocidad_ultima_fecha: son utilizadas como promedio de los valores de la última fecha que corresponden por su nombre.
+
+## **`KPIs:`**
+
+El proyecto cuenta con tres KPIs para realizar el seguimiento de sus objetivos:
+
+- Variación de penetración respecto al trimestre anterior como indicador de inclusión digital: La penetración de acceso a Internet en hogares refleja el nivel de inclusión digital de una sociedad. Cuanto mayor sea el porcentaje de hogares con acceso a Internet, mayor será la disponibilidad de información, oportunidades educativas y acceso a servicios en línea, lo que promueve la igualdad de oportunidades y el desarrollo personal. A su vez la penetración de acceso a Internet en hogares también tiene un impacto directo en la economía. Un mayor acceso a Internet en los hogares puede facilitar el comercio electrónico, el teletrabajo y la creación de empresas digitales, lo que contribuye al crecimiento económico, la generación de empleo y la mejora de la productividad. Objetivo: mejorar en 1% el acceso a internet por cada 100 habitantes con respecto al trimestre anterior.
+
+- Variación de la velocidad de descarga (Mbps) respecto al trimestre anterior: refleja el aumento o disminución en la velocidad de descarga de Internet experimentada por los usuarios. Una variación positiva indica mejoras en la velocidad de descarga, lo que implica una conexión más rápida y eficiente para los usuarios. Este avance en la calidad de conexión contribuye directamente a aumentar la satisfacción de los usuarios y promover una mayor adopción de Internet en los hogares. Objetivo: mejorar en 2% la velocidad de descarga en Mbps con respecto al trimestre anterior.
+
+- Variación de usurios con fibra óptica respecto al trimestre anterior: La adopción y crecimiento de usuarios de fibra óptica contribuye directamente a aumentar la penetración de acceso a Internet en los hogares. La fibra óptica proporciona una conexión más rápida y confiable en comparación con otras tecnologías, lo que hace que sea más atractiva para los hogares que buscan una conexión de calidad. Objetivo: mejorar en 2% la cantidad de usuarios con fibra óptica con respecto al trimestre anterior.
+
+## **`Conclusión:`**
+
+Aunque el acceso a Internet no es la única variable determinante en el PBI per cápita de Argentina, puede desempeñar un papel significativo al promover la educación, la innovación, el comercio electrónico y la inclusión financiera. Sin embargo, es necesario abordar la brecha digital para garantizar que todos los sectores de la sociedad se beneficien de las oportunidades que brinda la conectividad en línea.
