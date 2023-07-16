@@ -1,5 +1,19 @@
 # **Análisis del acceso a internet en Argentina**
 
+<p align='center'>
+<img src = 'https://concepto.de/wp-content/uploads/2020/03/telecomunicaciones-e1584304488912.jpg' height = 200 width = 800>
+<p>
+
+## **`Contexto:`**
+
+Las telecomunicaciones se refieren a la transmisión de información a través de medios electrónicos, como la telefonía, la televisión, la radio y, más recientemente, el internet. Estos medios de comunicación permiten la transmisión de información entre personas, organizaciones y dispositivos a largas distancias.
+
+El internet, por su parte, es una red global de computadoras interconectadas que permite el intercambio de información en tiempo real. Desde su creación, ha tenido un impacto significativo en la vida de las personas, transformando la manera en que nos comunicamos, trabajamos, aprendemos y nos entretenemos.
+
+La industria de las telecomunicaciones ha jugado un papel vital en nuestra sociedad, facilitando la información a escala internacional y permitiendo la comunicación continua incluso en medio de una pandemia mundial. La transferencia de datos y comunicación se realiza en su mayoría a través de internet, líneas telefónicas fijas, telefonía móvil, y en casi cualquier lugar del mundo.
+
+En comparación con la media mundial, Argentina está a la vanguardia en el desarrollo de las telecomunicaciones, teniendo para el 2020 un total de 62,12 millones de conexiones.
+
 ## **`Introducción:`**
 
 La relación entre el acceso a Internet en Argentina y el PBI per cápita (Producto Bruto Interno per cápita) puede ser compleja y multifacética. Aunque no existe una relación directa de causa y efecto entre estos dos indicadores, el acceso a Internet puede tener un impacto positivo en el desarrollo económico y el bienestar de un país. A continuación, exploraré algunos puntos relevantes sobre esta relación:
