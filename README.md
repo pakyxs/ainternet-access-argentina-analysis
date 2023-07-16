@@ -27,23 +27,6 @@ Es importante destacar que estos puntos son generales y que cada país y context
 - Datos del acceso a internet: Fuente primaria: Ente Nacional de Comunicaciones (ENACOM), URL: https://datosabiertos.enacom.gob.ar/dashboards/20000/acceso-a-internet/
 - Datos de PBI per cápita en dólares y pesos: Fuente primaria: Instituto Nacional de Estadística y Censos (INDEC), URL: https://datos.gob.ar/dataset/sspm-producto-interno-bruto-dolares-producto-interno-bruto-per-capita-poblacion.
 
-## **`Análisis de datos:`**
-
-- Realizamos la visualización del contenido y tipo de datos de todos los datasets para saber con cuáles trabajar.
-
-- En PowerQuery de PowerBI podemos observar información de los datos que contienen la tablas, por ejemplo: valores con error, vacíos, valores únicos, etc.
-
-![PowerQuery](./images/powerquery.png)
-
-
-- Utilizando un heatmap encontramos una relación proporcional entre el aumento del PBI per cápita en pesos y el aumento del acceso a internet en hogares. 
-
-![Heatmap](./images/heatmap.png)
-
-- Focalizándonos en la relación anterior podemos observar como se demuestra mediante la representación gráfica de los datos.
-
-![PBI vs Acceso a internet](./images/pbivsaccess.png)
-
 ## **`Transformación de datos:`**
 
 - Del dataset de PBI per cápita realizamos unas transformaciones para crear las columnas Año y Trimestre y eliminar las columnas que no vamos a utilizar, todo esto con lenguaje Python, y así poder comparar el nivel de acceso a internet por habitantes con el PBI.
@@ -55,6 +38,40 @@ Es importante destacar que estos puntos son generales y que cada país y context
     + Promedio_Fibra, Promedio_Penetracion y Promedio_Velocidad: son utilizadas como promedio de los valores que corresponden por su nombre.
     + Promedio_Fibra_TP, Promedio_Penetracion_TP y Promedio_Velocidad_TP: son utilizadas como promedio de los valores del trimestre anterior que corresponden por su nombre.
     + Promedio_Fibra_ultima_fecha, Promedio_Penetracion_ultima_fecha y Promedio_Velocidad_ultima_fecha: son utilizadas como promedio de los valores de la última fecha que corresponden por su nombre.
+
+## **`Análisis de datos:`**
+
+- Realizamos la visualización del contenido y tipo de datos de todos los datasets para saber con cuáles trabajar.
+
+- En PowerQuery de PowerBI podemos observar información de los datos que contienen la tablas, por ejemplo: valores con error, vacíos, valores únicos, etc.
+
+![PowerQuery](./images/powerquery.png)
+
+
+- Utilizando un heatmap encontramos una relación proporcional entre el aumento del PBI per cápita en pesos y el aumento del acceso a internet por habitante. 
+
+![Heatmap](./images/heatmap.png)
+
+- Focalizándonos en la relación anterior, podemos observar como se demuestra mediante la representación gráfica de los datos.
+
+![PBI vs Acceso a internet](./images/pbivsaccess.png)
+
+- Visualizamos la evolución del acceso a internet por provincia para poder identificar en cuáles hay que trabajar más para llegar al nivel promedio nacional.
+
+![Acceso a internet por Provincia](./images/accessbyprov.png)
+
+- Una forma de medida de la calidad de internet es la velocidad de descarga en Mbps, por lo cual observamos la evolución de esta en el tiempo. Tambien vemos la evolución de los tipos de tecnología.
+
+![Velocidad de descarga (Mbps)](./images/velocidad.png)
+
+- Del gráfico anterior podemos concluir que la tecnología que más afecta a la velocidad de descarga es la Fibra Óptica. Observamos la evolución de ésta en el tiempo y qué porción del mercado cubre a nivel nacional y por provincia.
+
+![Usuarios de fibra](./images/fibra_usuarios.png)
+![Mercado Fibra](./images/fibra_mercado.png)
+
+
+
+
 
 ## **`KPIs:`**
 
